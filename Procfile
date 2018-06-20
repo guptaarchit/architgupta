@@ -1,1 +1,1 @@
-web: gunicorn architgupta.wsgi
+web: gunicorn architgupta.wsgi --log-file -
