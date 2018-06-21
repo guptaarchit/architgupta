@@ -1305,8 +1305,8 @@
 /* Basic */
 
 	body {
-		background: #0131e1;
-		color: #0131e1;
+		background: #f44441;
+		color: #f44441;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
@@ -1331,7 +1331,7 @@
 
 	strong, b {
 		font-weight: 700;
-		color: #0131e1;
+		color: #f44441;
 	}
 
 	em, i {
@@ -1344,7 +1344,7 @@
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		outline: 0;
-		color: #0131e1;
+		color: #f44441;
 	}
 
 	sub {
@@ -1671,7 +1671,7 @@
 		  width: 10em; 
 		  padding: 1em;
 		  cursor: pointer; 
-		  background: #0131e1; 
+		  background: #f44441; 
 		  color: #FFF;
 		  border-radius: 7px 7px 7px 7px;
 		  -moz-border-radius: 7px 7px 7px 7px;
@@ -1948,7 +1948,7 @@
 		text-align: left;
 		line-height: 2em;
 		min-width: 14em;
-		background: #0131e1;
+		background: #f44441;
 		line-height: 1em;
 		padding: 1.25em 0 1.25em 0;
 		border-radius: 8px;
@@ -2016,7 +2016,7 @@
 		}
 		
 		.bannerbox {
-			background: #0131e1;
+			background: #f44441;
 			padding: 1.5em;
 		}
 		
@@ -2046,7 +2046,7 @@
 			border-radius: 0px 0px 8px 8px;
 			border: 2px solid;
 			border-color: #0173A3;
-			background: #0131e1;
+			background: #f44441;
 			text-align: center!important;			
 		}
 
@@ -2217,7 +2217,7 @@
 	#featured {
 		position: relative;
 		padding: 2em 0em 1.5em 0em;
-		background: #0131e1;
+		background: #f44441;
 	}
 
 		#featured header {
