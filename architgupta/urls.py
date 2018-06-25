@@ -20,5 +20,6 @@ import portfolio.views
 
 urlpatterns = [
     url(r'^$', portfolio.views.index, name='index'),
+    url(r'contact/', portfolio.views.contact, name='contact'),
     path('admin/', admin.site.urls),
 ]

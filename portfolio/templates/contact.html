@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Archit Gupta | Portfolio</title>
+		{% load static %}
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="{% static 'assets/js/ie/html5shiv.js' %}"></script><![endif]-->
+		<link rel="stylesheet" href="{% static 'assets/css/main.css'%}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="{% static 'assets/css/ie8.css' %}" /><![endif]-->
+	</head>
+	<body class="homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+					<div class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<span class="pennant"><span class="icon fas fa-at"></span></span>
+								<h1><a href="{% url 'index' %}">iamargu</a></h1>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="active"><a href="{% url 'index' %}">About Me</a></li>
+									<li><a href="services.html">What I Do</a></li>
+									<!--<li><a href="apage.html"></a></li>-->
+									<!--<li>-->
+										<!--<a href="#" class="icon fa-caret-down">Drop Down Menu</a>-->
+										<!--<ul>-->
+											<!--<li><a href="#">Example Menu</a></li>-->
+											<!--<li><a href="#">Example Menu</a></li>-->
+											<!--<li><a href="#">Example Menu</a></li>-->
+											<!--<li><a href="#">Example Menu</a></li>-->
+											<!--<li>-->
+												<!--<a href="#">Example Submenu</a>-->
+												<!--<ul>-->
+													<!--<li><a href="#">Example Menu</a></li>-->
+													<!--<li><a href="#">Example Menu</a></li>-->
+													<!--<li><a href="#">Example Menu</a></li>-->
+													<!--<li><a href="#">Example Menu</a></li>-->
+												<!--</ul>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</li>-->
+									<li><a href="{% url 'contact' %}">Contact Me</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+        </div>
+
+
+
+        Message Me
+
+    <div class="container">
+        <div id="footer"><!-- Social -->
+        <section>
+            <ul class="icons">
+                <li><a href="https://twitter.com/iamargu" class="icon fa-twitter"><span>Twitter</span></a></li>
+                <li><a href="https://www.instagram.com/iamargu/" class="icon fab fa-instagram"><span>Instagram</span></a></li>
+                <li><a href="https://plus.google.com/u/0/+ArchitiamarguGupta" class="icon fa-google-plus"><span>Google+</span></a></li>
+                <li><a href="www.linkedin.com/in/archit-gupta-114868a2" class="icon fa-linkedin"><span>Linkedin</span></a></li>
+                <li><a href="#" class="icon fas fa-envelope"><span>Message</span></a></li>
+            </ul>
+        </section>
+    </div>
+    </div>
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.dropotron.min.js' %}"></script>
+			<script src="{% static 'assets/js/skel.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/ie/respond.min.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+
+	</body>
+</html>
